@@ -396,15 +396,3 @@ button:hover {
     --factor: 0.512;
   }
 }
-
-@media only screen and (max-height: 400px) {
-  :root {
-    --factor: 0.4;
-  }
-}
-
-@media only screen and (max-height: 320px) {
-  :root {
-    --factor: 0.32;
-  }
-}
