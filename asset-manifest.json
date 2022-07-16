@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/select-teeth-chart/static/css/main.81b13a36.css",
+    "main.css": "/select-teeth-chart/static/css/main.c15c6a28.css",
     "main.js": "/select-teeth-chart/static/js/main.e618516a.js",
     "static/js/787.5a7d44df.chunk.js": "/select-teeth-chart/static/js/787.5a7d44df.chunk.js",
     "static/media/t29.svg": "/select-teeth-chart/static/media/t29.b2708d8a81ad41981a5e952666bae197.svg",
@@ -56,12 +56,12 @@
     "static/media/t24.svg": "/select-teeth-chart/static/media/t24.36795f5d0969f5bbea5a17d9fe038b13.svg",
     "static/media/t26.svg": "/select-teeth-chart/static/media/t26.1e14f31e2d34a27710b8c1637d5574a6.svg",
     "static/media/t25.svg": "/select-teeth-chart/static/media/t25.d67ed3cb5cc65ef7176b7836248066d9.svg",
-    "main.81b13a36.css.map": "/select-teeth-chart/static/css/main.81b13a36.css.map",
+    "main.c15c6a28.css.map": "/select-teeth-chart/static/css/main.c15c6a28.css.map",
     "main.e618516a.js.map": "/select-teeth-chart/static/js/main.e618516a.js.map",
     "787.5a7d44df.chunk.js.map": "/select-teeth-chart/static/js/787.5a7d44df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81b13a36.css",
+    "static/css/main.c15c6a28.css",
     "static/js/main.e618516a.js"
   ]
 }
