@@ -1,38 +1,410 @@
-.App {
-  text-align: center;
+:root {
+  --factor: 1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: rgba(231, 231, 231, 0.8);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#TeethDiagramContainer {
+  border-style: solid;
+  border-width: calc(1px * var(--factor));
+  border-color: white;
+  border-radius: calc(40px * var(--factor));
+  width: calc(547px * var(--factor));
+  height: calc(795px * var(--factor));
+  margin: auto;
+  position: relative;
+  background: rgb(237, 237, 237);
+  box-shadow: 1px 5px 5px 5px rgb(204, 204, 204);
+  transition: all 0.25s ease;
+  /* margin-left: calc(50px * var(--factor));
+  margin-top: calc(50px * var(--factor)); */
+}
+
+#TeethDiagramContainer:hover {
+  box-shadow: calc(10px * var(--factor)) calc(10px * var(--factor))
+    calc(15px * var(--factor)) calc(15px * var(--factor)) rgb(183, 183, 183);
+}
+
+button {
+  width: calc(48px * var(--factor));
+  height: calc(48px * var(--factor));
+  border-radius: calc(20px * var(--factor));
+  border-style: none;
+  background-color: rgb(237, 237, 237);
+  /* box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(204, 204, 204); */
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  border-width: calc(2px * var(--factor));
+  /* box-shadow: 2px 2px 2px 2px rgb(127, 126, 126); */
+  box-shadow: calc(1px * var(--factor)) calc(1px * var(--factor))
+    calc(1px * var(--factor)) calc(1px * var(--factor)) rgb(144, 144, 144);
+}
+
+/* button:focus{
+  background-color: yellow;
+} */
+
+#b1 {
+  position: absolute;
+  left: calc(110px * var(--factor));
+  top: calc(325px * var(--factor));
+}
+
+#b2 {
+  position: absolute;
+  left: calc(122px * var(--factor));
+  top: calc(270px * var(--factor));
+}
+
+#b3 {
+  position: absolute;
+  left: calc(140px * var(--factor));
+  top: calc(220px * var(--factor));
+}
+
+#b4 {
+  position: absolute;
+  left: calc(172px * var(--factor));
+  top: calc(170px * var(--factor));
+}
+
+#b5 {
+  position: absolute;
+  left: calc(220px * var(--factor));
+  top: calc(140px * var(--factor));
+}
+
+#b6 {
+  position: absolute;
+  left: calc(275px * var(--factor));
+  top: calc(140px * var(--factor));
+}
+
+#b7 {
+  position: absolute;
+  left: calc(326px * var(--factor));
+  top: calc(170px * var(--factor));
+}
+
+#b8 {
+  position: absolute;
+  left: calc(358px * var(--factor));
+  top: calc(217px * var(--factor));
+}
+
+#b9 {
+  position: absolute;
+  left: calc(376px * var(--factor));
+  top: calc(270px * var(--factor));
+}
+
+#b10 {
+  position: absolute;
+  left: calc(388px * var(--factor));
+  top: calc(325px * var(--factor));
+}
+
+#b11 {
+  position: absolute;
+  left: calc(110px * var(--factor));
+  top: calc(420px * var(--factor));
+}
+
+#b12 {
+  position: absolute;
+  left: calc(122px * var(--factor));
+  top: calc(473px * var(--factor));
+}
+
+#b13 {
+  position: absolute;
+  left: calc(140px * var(--factor));
+  top: calc(525px * var(--factor));
+}
+
+#b14 {
+  position: absolute;
+  left: calc(172px * var(--factor));
+  top: calc(575px * var(--factor));
+}
+
+#b15 {
+  position: absolute;
+  left: calc(222px * var(--factor));
+  top: calc(600px * var(--factor));
+}
+
+#b16 {
+  position: absolute;
+  left: calc(276px * var(--factor));
+  top: calc(600px * var(--factor));
+}
+
+#b17 {
+  position: absolute;
+  left: calc(326px * var(--factor));
+  top: calc(575px * var(--factor));
+}
+
+#b18 {
+  position: absolute;
+  left: calc(358px * var(--factor));
+  top: calc(525px * var(--factor));
+}
+
+#b19 {
+  position: absolute;
+  left: calc(376px * var(--factor));
+  top: calc(475px * var(--factor));
+}
+
+#b20 {
+  position: absolute;
+  left: calc(388px * var(--factor));
+  top: calc(420px * var(--factor));
+}
+
+#t1 {
+  position: absolute;
+  left: calc(10px * var(--factor));
+  top: calc(325px * var(--factor));
+}
+
+#t2 {
+  position: absolute;
+  left: calc(17px * var(--factor));
+  top: calc(270px * var(--factor));
+}
+
+#t3 {
+  position: absolute;
+  left: calc(29px * var(--factor));
+  top: calc(220px * var(--factor));
+}
+
+#t4 {
+  position: absolute;
+  left: calc(49px * var(--factor));
+  top: calc(170px * var(--factor));
+}
+
+#t5 {
+  position: absolute;
+  left: calc(81px * var(--factor));
+  top: calc(120px * var(--factor));
+}
+
+#t6 {
+  position: absolute;
+  left: calc(112px * var(--factor));
+  top: calc(65px * var(--factor));
+}
+
+#t7 {
+  position: absolute;
+  left: calc(165px * var(--factor));
+  top: calc(30px * var(--factor));
+}
+
+#t8 {
+  position: absolute;
+  left: calc(220px * var(--factor));
+  top: calc(10px * var(--factor));
+}
+
+#t9 {
+  position: absolute;
+  left: calc(275px * var(--factor));
+  top: calc(10px * var(--factor));
+}
+
+#t10 {
+  position: absolute;
+  left: calc(333px * var(--factor));
+  top: calc(30px * var(--factor));
+}
+
+#t11 {
+  position: absolute;
+  left: calc(385px * var(--factor));
+  top: calc(65px * var(--factor));
+}
+
+#t12 {
+  position: absolute;
+  left: calc(416px * var(--factor));
+  top: calc(120px * var(--factor));
+}
+
+#t13 {
+  position: absolute;
+  left: calc(448px * var(--factor));
+  top: calc(170px * var(--factor));
+}
+
+#t14 {
+  position: absolute;
+  left: calc(468px * var(--factor));
+  top: calc(220px * var(--factor));
+}
+
+#t15 {
+  position: absolute;
+  left: calc(480px * var(--factor));
+  top: calc(270px * var(--factor));
+}
+
+#t16 {
+  position: absolute;
+  left: calc(487px * var(--factor));
+  top: calc(325px * var(--factor));
+}
+
+#t17 {
+  position: absolute;
+  left: calc(10px * var(--factor));
+  top: calc(420px * var(--factor));
+}
+
+#t18 {
+  position: absolute;
+  left: calc(17px * var(--factor));
+  top: calc(475px * var(--factor));
+}
+
+#t19 {
+  position: absolute;
+  left: calc(29px * var(--factor));
+  top: calc(525px * var(--factor));
+}
+
+#t20 {
+  position: absolute;
+  left: calc(49px * var(--factor));
+  top: calc(575px * var(--factor));
+}
+
+#t21 {
+  position: absolute;
+  left: calc(81px * var(--factor));
+  top: calc(625px * var(--factor));
+}
+
+#t22 {
+  position: absolute;
+  left: calc(112px * var(--factor));
+  top: calc(680px * var(--factor));
+}
+
+#t23 {
+  position: absolute;
+  left: calc(165px * var(--factor));
+  top: calc(715px * var(--factor));
+}
+
+#t24 {
+  position: absolute;
+  left: calc(220px * var(--factor));
+  top: calc(735px * var(--factor));
+}
+
+#t25 {
+  position: absolute;
+  left: calc(275px * var(--factor));
+  top: calc(735px * var(--factor));
+}
+
+#t26 {
+  position: absolute;
+  left: calc(333px * var(--factor));
+  top: calc(715px * var(--factor));
+}
+
+#t27 {
+  position: absolute;
+  left: calc(385px * var(--factor));
+  top: calc(680px * var(--factor));
+}
+
+#t28 {
+  position: absolute;
+  left: calc(416px * var(--factor));
+  top: calc(625px * var(--factor));
+}
+
+#t29 {
+  position: absolute;
+  left: calc(448px * var(--factor));
+  top: calc(575px * var(--factor));
+}
+
+#t30 {
+  position: absolute;
+  left: calc(468px * var(--factor));
+  top: calc(525px * var(--factor));
+}
+
+#t31 {
+  position: absolute;
+  left: calc(480px * var(--factor));
+  top: calc(475px * var(--factor));
+}
+
+#t32 {
+  position: absolute;
+  left: calc(487px * var(--factor));
+  top: calc(420px * var(--factor));
+}
+
+@media only screen and (max-width: 550px) {
+  :root {
+    --factor: 0.8;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 440px) {
+  :root {
+    --factor: 0.64;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 350px) {
+  :root {
+    --factor: 0.512;
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  :root {
+    --factor: 0.8;
+  }
+}
+
+@media only screen and (max-height: 630px) {
+  :root {
+    --factor: 0.64;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  :root {
+    --factor: 0.512;
+  }
+}
+
+@media only screen and (max-height: 400px) {
+  :root {
+    --factor: 0.4;
+  }
+}
+
+@media only screen and (max-height: 320px) {
+  :root {
+    --factor: 0.32;
   }
 }
