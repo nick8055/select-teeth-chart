@@ -390,9 +390,3 @@ button:hover {
     --factor: 0.64;
   }
 }
-
-@media only screen and (max-height: 500px) {
-  :root {
-    --factor: 0.512;
-  }
-}
