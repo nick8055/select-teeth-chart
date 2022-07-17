@@ -17,12 +17,13 @@ body {
   position: relative;
   background: rgb(237, 237, 237);
   box-shadow: 1px 5px 5px 5px rgb(204, 204, 204);
-  transition: all 0.25s ease;
+  /* transition: all 0.25s ease; */
   /* margin-left: calc(50px * var(--factor));
   margin-top: calc(50px * var(--factor)); */
 }
 
 #TeethDiagramContainer:hover {
+  transition: all 0.25s ease;
   box-shadow: calc(10px * var(--factor)) calc(10px * var(--factor))
     calc(15px * var(--factor)) calc(15px * var(--factor)) rgb(183, 183, 183);
 }
@@ -36,11 +37,10 @@ button {
   /* box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(204, 204, 204); */
   cursor: pointer;
   /* transition: all 0.25s ease; */
-  /* Yeah */
 }
 
 button:hover {
-  border-width: calc(2px * var(--factor));
+  /* transition: all 0.25s ease; */
   /* box-shadow: 2px 2px 2px 2px rgb(127, 126, 126); */
   box-shadow: calc(1px * var(--factor)) calc(1px * var(--factor))
     calc(1px * var(--factor)) calc(1px * var(--factor)) rgb(144, 144, 144);

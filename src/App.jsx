@@ -62,13 +62,13 @@ import clickSound4 from "./cs4.mp3";
 import clickSound3 from "./cs3.mp3";
 
 import clickSound5 from "./cs5.mp3";
-import clickSound6 from "./cs6.mp3";
+import clickSound6 from "./cs1.mp3";
 import useSound from "use-sound";
 
 const App = () => {
   const Teeth = ({ teethName, ID, image }) => {
     const [play1] = useSound(clickSound6, { volume: 0.5 });
-    const [play2] = useSound(clickSound5);
+    const [play2] = useSound(clickSound5, { volume: 0.9 });
     const [isActive, setIsActive] = useState(false);
 
     const handleClick = () => {
@@ -81,8 +81,10 @@ const App = () => {
         <button
           id={ID}
           style={{
-            backgroundColor: isActive ? "rgba(4, 173, 190, 1)" : "",
+            backgroundColor: isActive ? "yellow" : "",
             color: isActive ? "rgb(237, 237, 237)" : "",
+            borderStyle: isActive ? "solid" : "none",
+            borderColor: isActive ? "rgba(4,173,190,1)" : "",
           }}
           onClick={handleClick}
         >
