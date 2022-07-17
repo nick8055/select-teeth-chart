@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/select-teeth-chart/static/css/main.e3b28e2f.css",
-    "main.js": "/select-teeth-chart/static/js/main.6bcb10d0.js",
+    "main.css": "/select-teeth-chart/static/css/main.5d1127eb.css",
+    "main.js": "/select-teeth-chart/static/js/main.8890235a.js",
     "static/js/845.c20e295f.chunk.js": "/select-teeth-chart/static/js/845.c20e295f.chunk.js",
     "static/js/787.5a7d44df.chunk.js": "/select-teeth-chart/static/js/787.5a7d44df.chunk.js",
-    "static/media/cs6.mp3": "/select-teeth-chart/static/media/cs6.b8214cd828596ebaf6de.mp3",
     "static/media/cs3.mp3": "/select-teeth-chart/static/media/cs3.fc47b566966eb1942579.mp3",
     "static/media/cs5.mp3": "/select-teeth-chart/static/media/cs5.cc50dce6acedf59d0ecf.mp3",
     "static/media/cs4.mp3": "/select-teeth-chart/static/media/cs4.3c33201a7327c433e648.mp3",
@@ -34,6 +33,7 @@
     "static/media/t1.svg": "/select-teeth-chart/static/media/t1.25a3873086c92df5c57a804d3153418f.svg",
     "static/media/b11.svg": "/select-teeth-chart/static/media/b11.b81df70694bac4d7a0259c9d125ee3a8.svg",
     "static/media/b19.svg": "/select-teeth-chart/static/media/b19.3f9975e2aca8210789ad248dcd7b7db8.svg",
+    "static/media/cs1.mp3": "/select-teeth-chart/static/media/cs1.42364d3ef775f3d42a0b.mp3",
     "static/media/b12.svg": "/select-teeth-chart/static/media/b12.4f0b79d8a612b6e9afeb5106df1c933d.svg",
     "static/media/b20.svg": "/select-teeth-chart/static/media/b20.63c330dde0cd0701e6a93cd999bcca0e.svg",
     "index.html": "/select-teeth-chart/index.html",
@@ -61,13 +61,13 @@
     "static/media/t24.svg": "/select-teeth-chart/static/media/t24.36795f5d0969f5bbea5a17d9fe038b13.svg",
     "static/media/t26.svg": "/select-teeth-chart/static/media/t26.1e14f31e2d34a27710b8c1637d5574a6.svg",
     "static/media/t25.svg": "/select-teeth-chart/static/media/t25.d67ed3cb5cc65ef7176b7836248066d9.svg",
-    "main.e3b28e2f.css.map": "/select-teeth-chart/static/css/main.e3b28e2f.css.map",
-    "main.6bcb10d0.js.map": "/select-teeth-chart/static/js/main.6bcb10d0.js.map",
+    "main.5d1127eb.css.map": "/select-teeth-chart/static/css/main.5d1127eb.css.map",
+    "main.8890235a.js.map": "/select-teeth-chart/static/js/main.8890235a.js.map",
     "845.c20e295f.chunk.js.map": "/select-teeth-chart/static/js/845.c20e295f.chunk.js.map",
     "787.5a7d44df.chunk.js.map": "/select-teeth-chart/static/js/787.5a7d44df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3b28e2f.css",
-    "static/js/main.6bcb10d0.js"
+    "static/css/main.5d1127eb.css",
+    "static/js/main.8890235a.js"
   ]
 }
