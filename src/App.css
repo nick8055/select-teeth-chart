@@ -35,7 +35,7 @@ button {
   background-color: rgb(237, 237, 237);
   /* box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(204, 204, 204); */
   cursor: pointer;
-  transition: all 0.25s ease;
+  /* transition: all 0.25s ease; */
 }
 
 button:hover {
