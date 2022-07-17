@@ -58,19 +58,22 @@ import t30 from "./SVG/t30.svg";
 import t31 from "./SVG/t31.svg";
 import t32 from "./SVG/t32.svg";
 
-import clickSound from "./cs3.mp3";
-import { Howl, Howler } from "howler";
+import clickSound4 from "./cs4.mp3";
+import clickSound3 from "./cs3.mp3";
+
+import clickSound5 from "./cs5.mp3";
+import clickSound6 from "./cs6.mp3";
 import useSound from "use-sound";
 
 const App = () => {
   const Teeth = ({ teethName, ID, image }) => {
-    const [play] = useSound(clickSound);
-    let audio = new Audio("./clickSound.mp3");
+    const [play1] = useSound(clickSound6, { volume: 0.5 });
+    const [play2] = useSound(clickSound5);
     const [isActive, setIsActive] = useState(false);
 
     const handleClick = () => {
       setIsActive((current) => !current);
-      play();
+      isActive ? play1() : play2();
     };
 
     return (
