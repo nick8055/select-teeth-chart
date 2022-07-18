@@ -83,8 +83,8 @@ const App = () => {
           style={{
             backgroundColor: isActive ? "yellow" : "",
             color: isActive ? "rgb(237, 237, 237)" : "",
-            borderStyle: isActive ? "solid" : "none",
-            borderColor: isActive ? "rgba(4,173,190,1)" : "",
+            // borderStyle: isActive ? "solid" : "none",
+            // borderColor: isActive ? "rgba(4,173,190,1)" : "",
           }}
           onClick={handleClick}
         >
