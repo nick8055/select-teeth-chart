@@ -81,7 +81,7 @@ const App = () => {
         <button
           id={ID}
           style={{
-            backgroundColor: isActive ? "yellow" : "",
+            backgroundColor: isActive ? "rgba(1,173,190,1)" : "",
             color: isActive ? "rgb(237, 237, 237)" : "",
             // borderStyle: isActive ? "solid" : "none",
             // borderColor: isActive ? "rgba(4,173,190,1)" : "",
